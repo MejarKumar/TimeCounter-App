@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.full-screen{
+   
+    background: linear-gradient( 
+        135deg
+         , #715605,hsl(163deg 93% 21% / 78%)),url(/jon-tyson-CP68p1fZS8k-unsplash.jpg) no-repeat center center/cover;
+            padding: 2rem;
+            min-height: 46rem;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+}
+
+.counter-screen{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:20rem;
+    font-family: sans-serif;
+
+  }
+  .card{
+    /* background: #184D47; */
+    width: 60rem;
+    height:20rem;
+    color: #FBF6F0;
+    display: flex;
+    justify-content:center;
+    
+  }
+ .big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0px;
+}
+  .counterEl{
+text-align: center;
+  }
+
+  .greeting-text {
+    color: #C7CFB7;
+    display: flex;
+    height: 10rem;
+    font-size: 2rem;
+    font-family: -webkit-pictograph;
+}
